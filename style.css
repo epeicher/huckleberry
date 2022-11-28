@@ -10,3 +10,86 @@ body {
 }
 
 /* Add styles here! */
+:root {
+  --color-primary: hsl(160deg, 100%, 30%);  
+
+  --color-secondary-ligther: hsl(45deg, 100%, 50%);
+  --color-secondary-darker: hsl(45deg, 100%, 40%);
+
+  --color-gray-100: hsl(0deg, 0%, 0%); /* (black)  */
+  --color-gray-90: hsl(0deg, 0%, 10%); /* (very dark)  */
+  --color-gray-70: hsl(0deg, 0%, 30%); /* (dark)  */
+  --color-gray-60: hsl(0deg, 0%, 40%); /* (medium)  */
+  --color-gray-40: hsl(0deg, 0%, 60%); /* (light)  */
+  --color-gray-0: hsl(0deg, 0%, 100%); /* (white)  */
+}
+
+header {
+  margin-block-start: 96px;
+  margin-block-end: 64px;
+}
+
+.title {
+  font-size: 2rem;
+  padding-block-end: 48px;
+  margin-block-end: 0;
+}
+.max-width-wrapper{
+  max-width: 800;
+  margin: 0 auto;
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+}
+
+strong {
+  color: var(--color-primary);
+}
+
+.intro-chunk {
+  max-width: 415px;
+}
+
+p {
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 30px;
+}
+
+main {
+  background-color: var(--color-gray-60);
+  border-top: 8px solid var(--color-gray-40);
+  border-bottom: 1px solid;
+}
+
+.card {
+  background-color: var(--color-gray-0);
+  margin-top: 72px;
+  border-top: 1px solid;
+  border-bottom: 8px solid var(--color-gray-40);
+  margin-bottom: 58px;
+  margin-left: -24px;
+  margin-right: -24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.card p {
+  font-weight: 500;
+}
+
+.card p:last-child {
+  margin-bottom: 24px;
+}
+
+.indented-heading {
+  margin-top: 8px;
+  padding-block-start: 16px;
+  padding-block-end: 16px;
+  background-color:var(--color-secondary-ligther);
+  border-bottom: 8px solid var(--color-secondary-darker);
+  width: 398px;
+  margin-left: -32px;
+  margin-right: -32px;
+  padding-left: 32px;
+}
