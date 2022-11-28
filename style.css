@@ -60,14 +60,14 @@ main {
   background-color: var(--color-gray-60);
   border-top: 8px solid var(--color-gray-40);
   border-bottom: 1px solid;
+  padding-top: 64px;
+  padding-bottom:64px;
 }
 
 .card {
   background-color: var(--color-gray-0);
-  margin-top: 72px;
   border-top: 1px solid;
   border-bottom: 8px solid var(--color-gray-40);
-  margin-bottom: 58px;
   margin-left: -24px;
   margin-right: -24px;
   padding-left: 24px;
